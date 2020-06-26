@@ -6,8 +6,7 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "build": "tsc -p .",
     "watch": "tsc -p . -w --preserveWatchOutput --inlineSourceMap",
-    "start": "tabris serve -a -w",
-    "gitpod": "tabris serve -a -w --no-intro --port 8080 --external $(gp url 8080):443"
+    "start": "tabris serve -a -w"
   },
   "dependencies": {
     "tabris": "~3.4.0"
